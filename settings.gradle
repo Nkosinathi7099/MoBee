@@ -1,0 +1,2 @@
+rootProject.name = "MoBee"
+include ':app'

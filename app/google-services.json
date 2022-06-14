@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353483740888",
+    "project_id": "mobee-96c14",
+    "storage_bucket": "mobee-96c14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353483740888:android:7a736ecee6130575c7e9ad",
+        "android_client_info": {
+          "package_name": "com.example.mobee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353483740888-94d2lm1pgi6kl4as8a5avot32ue30iae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJBbDAyAuWogDrTQ78p7FSwifQ-SBhRoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353483740888-94d2lm1pgi6kl4as8a5avot32ue30iae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

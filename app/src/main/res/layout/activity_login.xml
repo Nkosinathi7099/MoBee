@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#23203f"
+                android:layout_marginTop="47dp"
+                android:layout_gravity="center"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="20sp"
+                android:text="Sign In"
+                />
+
+            <com.example.mobee.RobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:letterSpacing="0.0265"
+                android:textColor="#6e6e73"
+                android:layout_gravity="center"
+                android:text="Login to continue your account"
+                android:textSize="17sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="73dp"
+                android:layout_marginRight="29dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profilePic"
+                    android:layout_width="183dp"
+                    android:layout_height="171dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/nicepng_bee_clipart_png_692311" />
+
+                <com.example.mobee.RobotoRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:background="#00000000"
+                    android:fontFamily="sans-serif"
+                    android:hint="First name"
+                    android:textColor="#23203f"
+                    android:textSize="25sp"
+
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@color/view_gray" />
+
+                <com.example.mobee.RobotoRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.3dp"
+                    android:background="#00000000"
+                    android:drawableRight="@drawable/view_password"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingRight="20dp"
+                    android:textColor="#9391a4"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@color/view_gray" />
+
+
+                <com.example.mobee.RobotoRegular
+                    android:id="@+id/login"
+                    style="@style/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginRight="33dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="34sp"
+                    android:paddingTop="10.5dp"
+                    android:paddingBottom="10.5dp"
+                    android:text="Login"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.example.mobee.RobotoRegular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.8dp"
+                        android:layout_marginBottom="30.5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:lineSpacingExtra="26sp"
+                        android:text="@string/already_have_an_account"
+                        android:textColor="#9391a4"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <com.example.mobee.RobotoBold
+                        android:id="@+id/reg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20.8dp"
+                        android:layout_marginBottom="30.5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:lineSpacingExtra="26sp"
+                        android:text="Register"
+                        android:textColor="#00008B"
+                        android:textSize="18sp"
+                        android:clickable="true"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
